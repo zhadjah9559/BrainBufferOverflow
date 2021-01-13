@@ -22,12 +22,10 @@
 
     //-----------------------------------------------------------------------------------
     //Extra credit
-    let numK = document.getElementById("kInput")
-    let results = document.getElementById("output")
+    document.getElementById("")
+    document.getElementById("btnSubmit").addEventListener("click", evaluateUserInput)
+    results = document.getElementById("output")
     let userAray = new Array(4)
-    document.getElementById("submitBtn").addEventListener("click", evaluateUserInput)
-
-
 
     function evaluateUserInput(){
         for (let i = 0; i < userArray.length; i++) {
@@ -37,7 +35,7 @@
         for(let i = 0; i = userArray.length -1; i++){
             for (let j = 1; j < userArray.length; j++) {
                 if( userArray[i] + userArray[j] == numK ){
-                    output.innerText = `Your number was found! ${userArray[i]} + ${userArray[j]} = ${numK}`
+                    output.innerText = `Your number was found! ${hardCodedArray[i]} + ${hardCodedArray[j]} = ${numK}`
                     found = true;
                     break;
                 }

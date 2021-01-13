@@ -25,9 +25,6 @@
     let numK = document.getElementById("kInput")
     let results = document.getElementById("output")
     let userAray = new Array(4)
-    document.getElementById("submitBtn").addEventListener("click", evaluateUserInput)
-
-
 
     function evaluateUserInput(){
         for (let i = 0; i < userArray.length; i++) {

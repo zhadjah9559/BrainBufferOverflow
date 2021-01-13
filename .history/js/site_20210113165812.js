@@ -22,30 +22,28 @@
 
     //-----------------------------------------------------------------------------------
     //Extra credit
-    let numK = document.getElementById("kInput")
-    let results = document.getElementById("output")
+    document.getElementById("btnSubmit").addEventListener("click", evaluateUserInput)
+    results = document.getElementById("output")
     let userAray = new Array(4)
-    document.getElementById("submitBtn").addEventListener("click", evaluateUserInput)
-
-
 
     function evaluateUserInput(){
         for (let i = 0; i < userArray.length; i++) {
             userArray[i] = document.getElementById(`arrayInput[${i}]`)
         }
 
-        for(let i = 0; i = userArray.length -1; i++){
-            for (let j = 1; j < userArray.length; j++) {
-                if( userArray[i] + userArray[j] == numK ){
-                    output.innerText = `Your number was found! ${userArray[i]} + ${userArray[j]} = ${numK}`
-                    found = true;
-                    break;
-                }
-            }
-        }
-        if(!found){
-            output.innerText = `Your number was not found!`
-        }
+        for(let i = 0; i = hardCodedArray.length -1; i++){
+            //         for (let j = 1; j < hardCodedArray.length; j++) {
+            //             if( hardCodedArray[i] + hardCodedArray[j] == numK ){
+            //                 output.innerText = `Your number was found! ${hardCodedArray[i]} + ${hardCodedArray[j]} = ${numK}`
+            //                 found = true;
+            //                 break;
+            //             }
+            //         }
+            //     }
+            //     if(!found){
+            //         output.innerText = `Your number was not found!`
+            //     }
+
     }
     
 
