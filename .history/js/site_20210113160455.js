@@ -4,7 +4,7 @@ hardCodedArray = [10, 15, 3, 7];
 let numk = parseInt(document.getElementById("kInput").value)
 let found = false;
 
-//Regular program that is working without extra credit
+<!---->
 function doJsWork(){
     for(let i = 0; i = hardCodedArray.length -1; i++){
         for (let j = 1; j < hardCodedArray.length; j++) {
