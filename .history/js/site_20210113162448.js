@@ -28,8 +28,10 @@
     function evaluateUserInput(){
         for (let i = 0; i < userArray.length; i++) {
             userArray[i] = document.getElementById(`arrayInput${i}`)
+            
         }
     }
+
     
 
     //generate array of length that will contain 20 elements

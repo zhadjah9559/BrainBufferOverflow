@@ -20,17 +20,9 @@
         }
     }
 
-    //-----------------------------------------------------------------------------------
     //Extra credit
     document.getElementById("btnSubmit").addEventListener("click", evaluateUserInput)
-    let userAray = new Array(4)
-
-    function evaluateUserInput(){
-        for (let i = 0; i < userArray.length; i++) {
-            userArray[i] = document.getElementById(`arrayInput${i}`)
-        }
-    }
-    
+        
 
     //generate array of length that will contain 20 elements
     //those 20 elements will all be random numbers 

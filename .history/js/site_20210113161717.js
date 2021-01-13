@@ -23,13 +23,15 @@
     //-----------------------------------------------------------------------------------
     //Extra credit
     document.getElementById("btnSubmit").addEventListener("click", evaluateUserInput)
-    let userAray = new Array(4)
+    let userAray = []
 
     function evaluateUserInput(){
-        for (let i = 0; i < userArray.length; i++) {
-            userArray[i] = document.getElementById(`arrayInput${i}`)
+        for (let index = 0; index < array.length; index++) {
+            const element = array[index];
+            
         }
     }
+
     
 
     //generate array of length that will contain 20 elements
