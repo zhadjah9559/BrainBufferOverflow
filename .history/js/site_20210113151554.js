@@ -1,0 +1,10 @@
+document.getElementById("btnSubmit").addEventListener("click", ()=>{
+//wire up all values
+let kInput = parseInt( document.getElementById("kInput").value )
+let arrayInput = parseInt( document.getElementById("kInput").value )
+let kInput = parseInt( document.getElementById("kInput").value )
+let kInput = parseInt( document.getElementById("kInput").value )
+
+
+})
+
