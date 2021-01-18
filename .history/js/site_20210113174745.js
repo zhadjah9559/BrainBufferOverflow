@@ -24,13 +24,10 @@
     //Extra credit
     let numK = document.getElementById("kInput");
     let results = document.getElementById("output");
-    let userArray = []
+    let userAray = []
     let ARRAY_SIZE = 4
     document.getElementById("submitBtn").addEventListener("click", evaluateUserInput);
-    /*
-    Eaiser way to take input
-    */
-   
+
   
 
     function evaluateUserInput(){

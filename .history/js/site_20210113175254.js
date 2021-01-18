@@ -30,7 +30,7 @@
     /*
     Eaiser way to take input
     */
-   
+    let user
   
 
     function evaluateUserInput(){

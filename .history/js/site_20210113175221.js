@@ -27,10 +27,8 @@
     let userArray = []
     let ARRAY_SIZE = 4
     document.getElementById("submitBtn").addEventListener("click", evaluateUserInput);
-    /*
-    Eaiser way to take input
-    */
-   
+    /**/
+
   
 
     function evaluateUserInput(){

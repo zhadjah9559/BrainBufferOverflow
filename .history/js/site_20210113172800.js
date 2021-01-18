@@ -22,21 +22,19 @@
 
     //-----------------------------------------------------------------------------------
     //Extra credit
-    let numK = document.getElementById("kInput");
-    let results = document.getElementById("output");
-    let userArray = []
-    let ARRAY_SIZE = 4
-    document.getElementById("submitBtn").addEventListener("click", evaluateUserInput);
-    /*
-    Eaiser way to take input
-    */
-   
+    let numK = document.getElementById("kInput");;
+    let results = document.getElementById("output")
+    let userAray = new Array(4)
+    document.getElementById("submitBtn").addEventListener("click",  function(){
+        evaluateUserInput();
+    });
+
   
 
     function evaluateUserInput(){
                //initialize the user inputs using a for loops
-               for (let i = 0; i < ARRAY_SIZE; i++) {
-                userArray[i] = document.getElementById(`${arrayInput[i]}`)
+               for (let i = 0; i < userArray.length; i++) {
+                userArray[i] = document.getElementById(`arrayInput[${i}]`)
             }
     
             for(let i = 0; i = userArray.length -1; i++){
